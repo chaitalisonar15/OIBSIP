@@ -1,0 +1,64 @@
+/* styles.css */
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body {
+    font-family: 'poppins',sans-serif ;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    
+    color: #171616;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-left: 20px;
+    text-align: center;
+  }
+  
+  nav ul li a {
+    color: #1d1c1c;
+    text-decoration: none;
+
+  }
+ button{
+    
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid#1a1819;
+    border-radius: 25px;
+    color: #040118;
+    background-color: rgb(127, 255, 253);
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    }
+  
+  section {
+    padding: 40px;
+  }
+  
+  footer {
+    background-color: rgb(51, 51, 51);
+    color: #201f1f;
+    padding: 20px;
+    text-align: center;
+  }
+  body{
+    background-image: url("shoppic.jpeg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
